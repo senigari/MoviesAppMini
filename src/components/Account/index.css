@@ -1,0 +1,55 @@
+.membership-container {
+  display: flex;
+}
+.plan-details-container {
+  display: flex;
+}
+.line-break {
+  background-color: #cbd5e1;
+  height: 2px;
+  width: 1110px;
+}
+
+.account-page-container {
+  background-color: black;
+}
+.user-details-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  background-color: #ffffff;
+}
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logout-button {
+  color: #ffffff;
+  background-color: #e50914;
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  border-radius: 8px;
+}
+
+.logout-button-container {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .line-break {
+    width: 90%;
+  }
+  .user-details-container {
+    font-size: 10px;
+  }
+  .membership-container {
+    display: flex;
+    justify-content: center;
+  }
+  .plan-details-container {
+    display: flex;
+    justify-content: center;
+  }
+}

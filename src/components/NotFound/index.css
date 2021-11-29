@@ -1,0 +1,26 @@
+.page-not-found-container {
+  background-image: url('https://cdn.pixabay.com/photo/2020/04/30/15/34/code-5113374_1280.jpg');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background-size: cover;
+  background-position: center;
+}
+.lost-connection-title {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.page-not-found-para {
+  text-align: center;
+  color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .lost-connection-title {
+    margin-bottom: 0px;
+  }
+  .page-not-found-para {
+    width: 300px;
+  }
+}

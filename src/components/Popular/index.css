@@ -1,0 +1,33 @@
+.popular-image {
+  width: 255px;
+  height: 170px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.popularMovies-body-section {
+  display: flex;
+  flex-direction: column;
+
+  width: 100vw;
+  justify-content: center;
+  background-color: black;
+}
+.popular-movies-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.page {
+  color: #ffffff;
+}
+.pageNumber-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}

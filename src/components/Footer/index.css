@@ -1,0 +1,26 @@
+.icon-element {
+  color: #ffffff;
+  width: 18px;
+  height: 21px;
+
+  left: 47.85%;
+  right: 50.9%;
+  top: 90.46%;
+  bottom: 8.3%;
+}
+.contact-us-element {
+  color: #ffffff;
+}
+.icons-container {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}

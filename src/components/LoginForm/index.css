@@ -1,0 +1,129 @@
+.app-container {
+  height: auto;
+  background-color: black;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    background-size: cover;
+    background: linear-gradient(
+        116.64deg,
+        rgba(0, 0, 0, 0.8) 0.46%,
+        rgba(0, 0, 0, 0) 100%
+      ),
+      url('https://assets.nflxext.com/ffe/siteui/vlv3/c0a32732-b033-43b3-be2a-8fee037a6146/2fe6e3c0-5613-4625-a0c1-3d605effd10b/IN-en-20210607-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+  }
+}
+
+.login-page-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+.movies-heading {
+  color: #e50014;
+  padding: 30px;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .movies-heading {
+    width: 180px;
+    height: 52px;
+    color: #e50014;
+    padding-left: 140px;
+    padding-top: 40px;
+    margin: 0px;
+  }
+}
+.login-card-container {
+  width: 360px;
+  height: 380px;
+  opacity: 0.8;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .login-card-container {
+    background-color: #0c0b10;
+    width: 350px;
+    height: 330px;
+  }
+}
+.sign-in-title {
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+  color: #ffffff;
+
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .sign-in-title {
+    text-align: center;
+  }
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-label {
+  width: 65px;
+  height: 16px;
+  left: 0px;
+  top: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.username-input {
+  height: 40px;
+  left: 0%;
+  width: 260px;
+  right: 0%;
+  top: 24px;
+  color: #ffffff;
+  background: #333333;
+  border-radius: 2px;
+  border: none;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.signin-button {
+  padding: 8px 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 40px;
+
+  background: #e50914;
+  border-radius: 4px;
+}
+.errorNote {
+  color: red;
+}
